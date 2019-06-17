@@ -2,6 +2,7 @@
   "name": "its-obinna",
   "private": true,
   "scripts": {
+    "start": "gridsome develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore"
