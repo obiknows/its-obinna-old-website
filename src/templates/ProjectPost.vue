@@ -39,7 +39,7 @@
 query ProjectPost ($path: String!) {
   post: projectPost (path: $path) {
     title
-    date (format: "YYYY")
+    date (format: "MMMM YYYY")
     content
     categories
     projectBgColor
