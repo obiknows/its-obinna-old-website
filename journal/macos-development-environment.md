@@ -1,8 +1,8 @@
 ---
 date: 05/16/2019
-title: macOS development environment
-author: Nichlas W. Andersen
-excerpt: Get up and running with a fresh macOS Mojave install
+title: How I made the Ø13NNA Logo
+author: Obinna Nnodim
+excerpt: From paper to pixels, how I made the design
 
 ---
 ### Install Homebrew

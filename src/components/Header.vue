@@ -4,7 +4,7 @@
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/OBINNA-logo.png"
+                        src="../../static/OBINNA.svg"
                         :alt="settings.site_name" 
                         class="logo"
                     />
@@ -51,7 +51,7 @@ export default {
     text-decoration: none;
 }
 .logo {
-    height: 2.5rem;
+    height: 3rem;
 }
 .site-name {
     font-size: 0.9rem;

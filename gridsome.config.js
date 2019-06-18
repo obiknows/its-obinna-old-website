@@ -2,10 +2,10 @@
 // Learn more: https://gridsome.org/docs/config
 
 module.exports = {
-  siteName: "Portfolio",
-  siteUrl: `https://www.itsnwa.com`,
+  siteName: "Obinna Nnodim",
+  siteUrl: `https://www.itsobinna.com`,
   titleTemplate: "%s - NWA",
-  siteDescription: "Creative technologist",
+  siteDescription: "Designer, Producer, Entrepreneur, Investor",
   plugins: [
     {
       use: "@gridsome/source-filesystem",
