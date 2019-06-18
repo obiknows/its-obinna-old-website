@@ -4,7 +4,7 @@
 module.exports = {
   siteName: "Obinna Nnodim",
   siteUrl: `https://www.itsobinna.com`,
-  titleTemplate: "%s - NWA",
+  titleTemplate: "%s",
   siteDescription: "Designer, Producer, Entrepreneur, Investor",
   plugins: [
     {
