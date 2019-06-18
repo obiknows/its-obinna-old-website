@@ -11,8 +11,9 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" :to="{ name: 'journal' }">Journal</g-link>
-                <g-link class="nav__link" :to="{ name: 'contact' }">Say Hi!</g-link>
+                <g-link class="nav__link" :to="{ name: 'contact' }">Work</g-link>
+                <g-link class="nav__link" :to="{ name: 'journal' }">Ideas</g-link>
+                <g-link class="nav__link" :to="{ name: 'contact' }">Store</g-link>
             </nav>
         </div>
     </header>
@@ -22,7 +23,7 @@
 export default {
   data() {
     return {
-        logo: require("../../static/logo.svg"),
+        // logo: require("../../static/logo.svg"),
         settings: require("../../data/theme.json")
     }
   }
