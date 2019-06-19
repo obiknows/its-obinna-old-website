@@ -3,11 +3,21 @@
     <div class="container">
 
       <div class="contact-header">
-        <h1 class="contact-title">Say hi!</h1>
-        <p>Leave me a note with any questions you might have, I'll get back to you as soon as possible.</p>
+        <h1 class="contact-title">Tap In!</h1>
+        <p>Let me know if you wanna get busy or got an idea we could work on and I'll get back to you as soon as possible.</p>
+      </div>
+      
+      <div class="">
+        <h3 class="contact-means-title">Instagram</h3>
+        <a href="https://www.instagram.com/o13nna/"><p>@o13nna</p></a>
+      </div>
+      
+      <div class="">
+        <h1 class="contact-means-title">Email</h1>
+        <a href="mailto:obiknows88@@gmail.com?subject=Tap%20In:&body=Hey%20Obinna,%20I'd%20like%20to%20work%20with%20you%20on%20[whatever-it-is-you-want]%20and%20my%20timeframe%20[estimate]%20is%20and%20my%20budget%20is%20[estimate]."><p>obiknows88@gmail.com</p></a>
       </div>
 
-      <form class="contact-form" name="contact">
+      <!-- <form class="contact-form" name="contact">
 
         <div class="sender-info">
           <div>
@@ -27,7 +37,7 @@
 
         <button class="button">Submit form</button>
 
-      </form>
+      </form> -->
 
     </div>
   </Layout>
@@ -38,6 +48,12 @@ export default {}
 </script>
 
 <style scoped>
+.contact-means-title {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
 .contact-header {
   padding: 2rem 0 4rem 0;
 }
