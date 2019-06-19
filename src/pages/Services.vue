@@ -2,42 +2,40 @@
   <Layout>
     <div class="container">
 
-      <div class="contact-header">
-        <h1 class="contact-title">Services</h1>
-        <p>Let me know if you wanna get busy or got an idea we could work on and I'll get back to you as soon as possible.</p>
+      <div class="services-header">
+        <h1 class="services-title">Services</h1>
+
+        <nav class="menu menu--adsila">
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Artists</span>
+            <span class="menu__item-label">Explore all artists' portfolios</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Exhibitions</span>
+            <span class="menu__item-label">Discover their stories</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Schedule</span>
+            <span class="menu__item-label">View our event calendar</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Mission</span>
+            <span class="menu__item-label">Read our mission statement</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">The Gardens</span>
+            <span class="menu__item-label">Get to know our eco village</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Buy Tickets</span>
+            <span class="menu__item-label">Purchase event tickets online</span>
+          </a>
+          <a class="menu__item" href="#">
+            <span class="menu__item-name">Contact</span>
+            <span class="menu__item-label">Get in touch and find us</span>
+          </a>
+        </nav>
       </div>
-      
-      <div class="">
-        <h3 class="contact-means-title">Instagram</h3>
-        <a href="https://www.instagram.com/o13nna/"><p>@o13nna</p></a>
-      </div>
-      
-      <div class="">
-        <h1 class="contact-means-title">Email</h1>
-        <a href="mailto:obiknows88@@gmail.com?subject=Tap%20In:&body=Hey%20Obinna,%20I'd%20like%20to%20work%20with%20you%20on%20[whatever-it-is-you-want]%20and%20my%20timeframe%20[estimate]%20is%20and%20my%20budget%20is%20[estimate]."><p>obiknows88@gmail.com</p></a>
-      </div>
-
-      <!-- <form class="contact-form" name="contact">
-
-        <div class="sender-info">
-          <div>
-            <label for="name" class="label">Your name</label>
-            <input type="text" name="name" />
-          </div>
-          <div>
-            <label for="email" class="label">Your email</label>
-            <input type="email" name="email" />
-          </div>
-        </div>
-
-        <div class="message">
-          <label for="message" class="label">Message</label>
-          <textarea name="message"></textarea>
-        </div>
-
-        <button class="button">Submit form</button>
-
-      </form> -->
 
     </div>
   </Layout>
@@ -48,16 +46,17 @@ export default {}
 </script>
 
 <style scoped>
-.contact-means-title {
+.services-means-title {
   font-size: 2rem;
   margin: 0 0 1rem 0;
   padding: 0;
 }
 
-.contact-header {
+.services-header {
   padding: 2rem 0 4rem 0;
+  text-align: center;
 }
-.contact-title {
+.services-title {
   font-size: 4rem;
   margin: 0 0 4rem 0;
   padding: 0;
@@ -111,5 +110,133 @@ textarea {
 .button:focus {
   border: 1px solid var(--color-base-1);
 }
+
+/* From Codrops */
+.menu {
+	position: relative;
+	z-index: 10;
+}
+
+.menu__item {
+	position: relative;
+	display: block;
+	outline: none;
+	margin: 0 0 1.5em;
+	line-height: 1;
+}
+
+.menu__item-name,
+.menu__item-label {
+	position: relative;
+	display: inline-block;
+}
+
+.menu__item-name {
+	font-size: 1.25em;
+}
+
+.menu__item-label {
+	margin: 0 0 0 0.5em;
+}
+
+.menu--adsila {
+	font-size: 1.15em;
+	font-family: 'Nunito', sans-serif;
+}
+
+.menu--adsila a {
+	color: #272727;
+}
+
+.menu--adsila .menu__item {
+	margin: 0 0 1em;
+}
+
+.menu--adsila .menu__item-name {
+	padding: 0 0.35em;
+	font-weight: bold;
+	line-height: 1.4;
+	transition: color 0.5s;
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.menu--adsila .menu__item-name::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 50%;
+	left: 0;
+	bottom: 0;
+	opacity: 0.3;
+	transform: scale3d(0,1,1);
+	transform-origin: 0% 50%;
+	transition: transform 0.5s;
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.menu--adsila .menu__item-label {
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	transform: translate3d(-0.5em,0,0);
+	transition: transform 0.5s, color 0.5s;
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.menu--adsila .menu__item-label::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	width: 25%;
+	height: 1px;
+	left: 0.05em;
+	top: 1.25em;
+	opacity: 0.3;
+	transform: scale3d(0,1,1);
+	transform-origin: 100% 50%;
+	transition: transform 0.5s;
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.menu--adsila .menu__item:nth-child(odd) .menu__item-name::before,
+.menu--adsila .menu__item:nth-child(odd) .menu__item-label::before {
+	background: #fe628e;
+}
+
+.menu--adsila .menu__item:nth-child(even) .menu__item-name::before,
+.menu--adsila .menu__item:nth-child(even) .menu__item-label::before  {
+	background: #6265fe;
+}
+
+/* Hover */
+
+.menu--adsila .menu__item:nth-child(odd):hover,
+.menu--adsila .menu__item:nth-child(odd):focus {
+	color: #fe628e;
+}
+
+.menu--adsila .menu__item:nth-child(even):hover,
+.menu--adsila .menu__item:nth-child(even):focus {
+	color: #6265fe;
+}
+
+.menu--adsila .menu__item:hover .menu__item-name::before,
+.menu--adsila .menu__item:focus .menu__item-name::before,
+.menu--adsila .menu__item:hover .menu__item-label::before,
+.menu--adsila .menu__item:focus .menu__item-label::before {
+	transform: scale3d(1,1,1);
+}
+
+.menu--adsila .menu__item:hover .menu__item-label,
+.menu--adsila .menu__item:focus .menu__item-label {
+	transform: translate3d(0,0,0);
+}
+
+.menu--adsila .menu__item:hover .menu__item-label::before,
+.menu--adsila .menu__item:focus .menu__item-label::before {
+	transition-timing-function: ease;
+	transform-origin: 0% 50%;
+}
+
 </style>
 
