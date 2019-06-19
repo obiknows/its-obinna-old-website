@@ -19,7 +19,7 @@ fields:
   config:
     required: true
     display_utc: true
-    date_format: D. MMMM YYYY
+    date_format: MMMM DD YYYY
     time_format: ''
     export_format: MM/DD/YYYY
   default: now
@@ -29,11 +29,11 @@ fields:
     source:
       type: simple
       section: authors
-      file: data/authors/nichlas-w-andersen.json
+      file: data/authors/obinna-nnodim.json
     required: true
     options:
-    - Nichlas W. Andersen
+    - Obinna Nnodim
   label: Author
-  default: Nichlas W. Andersen
+  default: Obinna Nnodim
 pages:
 - journal/macos-development-environment.md
