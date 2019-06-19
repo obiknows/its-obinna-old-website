@@ -39,6 +39,16 @@ and I liked what I drew so that was it. Next step, make it digital.
 
 The next step of the design was to import the photo of the drawing to the computer and trace it so I could have a vector to use.
 
-{screenshot of logo in process}
+![](/uploads/drawing-the-o13nna-logo.gif)
 
-### 3 - Redesign, Refine, and Release
+### 3 - Revisit, Refine, and Release
+
+After I finished the rough drawing, with the pen it was time to revisit and revise, and then release that logo to the world. 
+
+![](/uploads/drawing-the-o13nna-finishing.gif)
+
+After several minutes invested, heres the process and finished product. 
+
+![](/uploads/drawing-the-o13nna-logo.svg)
+
+Hope you enjoyed the process.
