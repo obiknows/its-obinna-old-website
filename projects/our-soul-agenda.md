@@ -1,17 +1,24 @@
 ---
-thumbnail: "/uploads/mike-dorner-173502-unsplash.jpg"
+thumbnail: "/uploads/our-soul-agenda-desktop.png"
 title: Our Soul Agenda
-date: "2019-01-03 23:00:00 +0000"
-# date: 'Thu, 3 Jan 2019 07:00:00 GMT'
+date: '2019-05-15T13:55:55.000Z'
 categories: 
-- ecommerce
+- website
 - design
 - development
-- webflow 
-project_bg_color: ''
-project_fg_color: ''
+- blog
+project_bg_color: '#FBC62F'
+project_fg_color: '#F65026'
 
 ---
-The **banana** fruits grow from a **banana** blossom in hanging clusters, also called a bunch or **banana** stem. The fruits grow in rows called tiers or hands. There can be as many as twenty fruits to a hand, and as many as twenty tiers in a bunch. A bunch usually weighs between 30 and 50 kilograms (65 to 110 pounds).
+**Our Soul Agenda** is a platform consisting of a YouTube channel, Instagram account as well as a website and blog. 
 
-![](/uploads/mike-dorner-173502-unsplash.jpg)
+This website was custom-made in GatsbyJS.
+
+Website: [Our Soul Agenda](https://www.oursoulagenda.com)
+
+Youtube: [Our Soul Agenda](https://www.youtube.com/channel/UC14DDaQZouxfsTxHhXxF0sg)
+
+Instagram: [@oursoulagenda](https://www.instagram.com/oursoulagenda/)
+
+![](/uploads/our-soul-agenda-desktop.png)

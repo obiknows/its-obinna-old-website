@@ -1,9 +1,7 @@
 ---
 thumbnail: "/uploads/the-chumz-app-icon.png"
 title: The Chumz App Redesign
-date: '2019-01-20T13:55:55.000Z'
-# date: 2019-01-20 23:00:00 +0000
-# date: 'Sun, 20 Jan 2019 07:00:00 GMT'
+date: '2019-05-25T13:55:55.000Z'
 categories:
 - ui design
 - ux design
