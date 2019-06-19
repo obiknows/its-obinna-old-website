@@ -7,32 +7,24 @@
 
         <nav class="menu menu--adsila">
           <a class="menu__item" href="#">
-            <span class="menu__item-name">Artists</span>
-            <span class="menu__item-label">Explore all artists' portfolios</span>
+            <span class="menu__item-name">UI/UX Design</span>
+            <!-- <span class="menu__item-label">I'll craft </span> -->
           </a>
           <a class="menu__item" href="#">
-            <span class="menu__item-name">Exhibitions</span>
-            <span class="menu__item-label">Discover their stories</span>
+            <span class="menu__item-name">Logo Design</span>
+            <!-- <span class="menu__item-label">I'll </span> -->
           </a>
           <a class="menu__item" href="#">
-            <span class="menu__item-name">Schedule</span>
-            <span class="menu__item-label">View our event calendar</span>
+            <span class="menu__item-name">Website Design</span>
+            <!-- <span class="menu__item-label">I'll draft, desgin and deliver a website to your specificationa and budget</span> -->
           </a>
           <a class="menu__item" href="#">
-            <span class="menu__item-name">Mission</span>
-            <span class="menu__item-label">Read our mission statement</span>
+            <span class="menu__item-name">Ecommerce Design</span>
+            <!-- <span class="menu__item-label">I'll draft, desgin and deliver a custom ecom</span> -->
           </a>
           <a class="menu__item" href="#">
-            <span class="menu__item-name">The Gardens</span>
-            <span class="menu__item-label">Get to know our eco village</span>
-          </a>
-          <a class="menu__item" href="#">
-            <span class="menu__item-name">Buy Tickets</span>
-            <span class="menu__item-label">Purchase event tickets online</span>
-          </a>
-          <a class="menu__item" href="#">
-            <span class="menu__item-name">Contact</span>
-            <span class="menu__item-label">Get in touch and find us</span>
+            <span class="menu__item-name">Branding Consultation</span>
+            <!-- <span class="menu__item-label">Get in touch and I'l</span> -->
           </a>
         </nav>
       </div>
