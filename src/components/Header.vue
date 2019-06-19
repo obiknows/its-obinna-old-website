@@ -11,7 +11,7 @@
                 </g-link>
             </div>
             <nav class="nav right">
-                <g-link class="nav__link" :to="{ name: 'contact' }">Services</g-link>
+                <g-link class="nav__link" :to="{ name: 'services' }">Services</g-link>
                 <g-link class="nav__link" :to="{ name: 'journal' }">Ideas</g-link>
                 <g-link class="nav__link" :to="{ name: 'contact' }">Store</g-link>
             </nav>
