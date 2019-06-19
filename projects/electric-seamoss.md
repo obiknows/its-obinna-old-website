@@ -14,9 +14,11 @@ project_bg_color: '#665AA1'
 project_fg_color: '#E9D15E'
 ---
 
-This was a website done for health and wellness brand, Electric Seamoss™️. The website was constructed in Webflow. 
+This was a website done for health and wellness brand, Electric Seamoss™️. 
 
-See it live [here](https://electricseamoss.com) @ (https://electricseamoss.com)
+The website was constructed in Webflow in a week. 
+
+See it live and place your orders [here](https://electricseamoss.com) @ (https://electricseamoss.com)
 
 
 ### Desktop Version
