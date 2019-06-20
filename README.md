@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://file-xidfrcjkaq.now.sh/" height="240">
-  <h3 align="center">Gridsome x Forestry</h3>
-  <p align="center">A starter-kit by Nichlas W. Andersen<p>
+  <h3 align="center">It's Obinna</h3>
+  <p align="center">Portfolio Site by Obinna Nnodim<p>
 </p>
 
 <p align="center">
-  <a href="https://app.netlify.com/sites/gridsome-forestry/deploys"><img src="https://api.netlify.com/api/v1/badges/21965bf1-8f46-4201-afe9-98896cba865e/deploy-status" alt="Netlify Status"></a>
+  <a href="https://app.netlify.com/sites/its-obinna/deploys"><img src="https://api.netlify.com/api/v1/badges/e88b5bc5-64d5-470d-823e-46fcc79d3a45/deploy-status" alt="Netlify Status"></a>
 </p>
 
 
@@ -16,14 +16,14 @@
 npm install --global @gridsome/cli
 
 # cd into the project directory
-cd gridsome-forestry-starter
+cd its-obinna
 
 # Start local dev server
 gridsome develop
 ```
 
 
-## Forestry (Content Management)
+<!-- ## Forestry (Content Management)
 
 This project has been pre-configured to work with Forestry, just import your repository ✨  
 Any changes you make will be commited back to the repo, and deployed if you're using Netlify.
@@ -31,7 +31,7 @@ Any changes you make will be commited back to the repo, and deployed if you're u
  
 <p>
   <a href="https://app.forestry.io/quick-start?repo=itsnwa/gridsome-forestry-starter&amp;provider=github&amp;engine=vuepress" rel="nofollow"><img src="https://camo.githubusercontent.com/2455e97e4e989374a355fb0bea7ad364f2561c92/68747470733a2f2f6173736574732e666f7265737472792e696f2f696d706f72742d746f2d666f7265737472794b2e737667" alt="Import this project into Forestry" data-canonical-src="https://assets.forestry.io/import-to-forestryK.svg" style="max-width:100%;"></a>
-</p>
+</p> -->
 
 
 ## Deploy with Netlify
