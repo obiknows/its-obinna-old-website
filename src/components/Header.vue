@@ -13,7 +13,7 @@
             <nav class="nav right">
                 <g-link class="nav__link" :to="{ name: 'services' }">Services</g-link>
                 <g-link class="nav__link" :to="{ name: 'journal' }">Ideas</g-link>
-                <g-link class="nav__link" :to="{ name: 'contact' }">Store</g-link>
+                <g-link class="nav__link" :to="{ name: 'store' }">Store</g-link>
             </nav>
         </div>
     </header>
@@ -72,6 +72,7 @@ export default {
     border-color: transparent;
     transition: border 0.15s;
 }
+
 .nav > *:last-of-type {
     margin: 0;
 }
@@ -81,4 +82,16 @@ export default {
 .nav > .active {
     border-color: inherit;
 }
+
+/*  */
+@media only screen and (max-width: 600px) {
+    .nav {
+        margin-left: 2rem;   
+    }
+
+    .nav > * {
+        margin-right: 2rem;
+    }
+}
+
 </style>

@@ -5,8 +5,21 @@ module.exports = {
   siteName: "Obinna Nnodim",
   siteUrl: `https://www.itsobinna.com`,
   titleTemplate: "%s",
-  siteDescription: "Designer, Producer, Entrepreneur, Investor",
+  siteDescription: "Designer, Producer, Developer, Entrepreneur, Investor",
   plugins: [
+    // TAILWIND CSS
+    // {
+    //   use: 'gridsome-plugin-tailwindcss',
+    //   options: {
+    //   tailwindConfig: './gridsome.config.js',
+    //     purgeConfig: {},
+    //     presetEnvConfig: {},
+    //     shouldPurge: true,
+    //     shouldImport: true,
+    //     shouldTimeTravel: true,
+    //   }
+    // },
+    // 
     {
       use: "@gridsome/source-filesystem",
       options: {
@@ -29,6 +42,13 @@ module.exports = {
           externalLinksTarget: "_blank",
           externalLinksRel: ["nofollow", "noopener", "noreferrer"]
         }
+      }
+    },
+    // Google Analytics
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-118672950-1'
       }
     }
   ],

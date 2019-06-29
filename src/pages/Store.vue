@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="services-header">
-        <h1 class="services-title">Services</h1>
+        <h1 class="services-title">Store</h1>
         
 
         <!-- <nav class="menu menu--adsila">
