@@ -1,11 +1,215 @@
 <template>
   <Layout>
+    <!-- Link: TAILWIND -->
     <div class="container">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+
 
       <div class="services-header">
         <h1 class="services-title">Services</h1>
         
-
+        <section class="cf w-100 pa2-ns">
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0003.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0004.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0007.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0008.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0009.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0010.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0011.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0012.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0013.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0014.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0015.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0016.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0017.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0018.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0019.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0020.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0021.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+  <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
+    <div class="aspect-ratio aspect-ratio--1x1">
+      <img style="background-image:url(http://mrmrs.github.io/images/0022.jpg);" 
+      class="db bg-center cover aspect-ratio--object" />
+    </div>
+    <a href="#0" class="ph2 ph0-ns pb3 link db">
+      <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+      <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+    </a>
+  </article>
+</section>
         <!-- <nav class="menu menu--adsila">
           <a class="menu__item" href="#">
             <span class="menu__item-name">UI/UX Design</span>
@@ -53,9 +257,9 @@ export default {}
   text-align: center;
 }
 .services-title {
-  font-size: 4rem;
-  margin: 0 0 4rem 0;
-  padding: 0;
+  font-size: 4rem !important; 
+  margin: 0 0 4rem 0 !important;
+  padding: 0 !important;
 }
 .sender-info {
   display: flex;

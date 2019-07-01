@@ -1,10 +1,20 @@
 <template>
   <Layout>
     <div class="container">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 
       <div class="services-header">
         <h1 class="services-title">Store</h1>
         
+
+        <div class="flex items-center justify-center pa4 bg-lightest-blue navy w-50 center">
+  <svg class="w1" data-icon="info" viewBox="0 0 32 32" style="fill:currentcolor">
+    <title>info icon</title>
+    <path d="M16 0 A16 16 0 0 1 16 32 A16 16 0 0 1 16 0 M19 15 L13 15 L13 26 L19 26 z M16 6 A3 3 0 0 0 16 12 A3 3 0 0 0 16 6"></path>
+  </svg>
+  <span class="lh-title ml3">It's Obinna Store Coming Soon</span>
+</div>
+
 
         <!-- <nav class="menu menu--adsila">
           <a class="menu__item" href="#">
