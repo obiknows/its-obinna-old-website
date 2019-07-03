@@ -30,7 +30,7 @@ export default {
             excerpt: makeExcerpt(this.product.content, 125),
             image: this.product.picture.length ? {
                 name: this.product.picture[0].filename,
-                url: this.product.picture[0].thumbnails.large.url.src,
+                url: this.product.picture[0].thumbnails.large.url,
             } : null,
         };
     }

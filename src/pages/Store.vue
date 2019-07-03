@@ -72,7 +72,7 @@ export default {
         ProductPreview,
     },
     metaInfo: {
-      titleTemplate: "Snipcart's Furniture Store"
+      titleTemplate: "It's Obinna Store"
     }
 };
 </script>
