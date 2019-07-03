@@ -20,6 +20,15 @@ module.exports = {
     //   }
     // },
     // 
+    // AIRTABLE
+    {
+          use: '~/src/sources/products',
+          options: {
+            apiKey: 'keycmtF508Q0vsTio',
+            base: 'appbTkVyyIJeeOrg8',
+          },
+    },
+    // DATA FOR: `/projects`
     {
       use: "@gridsome/source-filesystem",
       options: {
@@ -32,6 +41,21 @@ module.exports = {
         }
       }
     },
+    // DATA FOR: `/services`
+    {
+      use: "@gridsome/source-filesystem",
+      options: {
+        path: "services/**/*.md",
+        typeName: "ServicesPost",
+        resolveAbsolutePaths: true,
+        remark: {
+          externalLinksTarget: "_blank",
+          externalLinksRel: ["nofollow", "noopener", "noreferrer"]
+        }
+      }
+    },
+    // DATA FOR: `/journal`
+    // TODO: change this to gems
     {
       use: "@gridsome/source-filesystem",
       options: {
