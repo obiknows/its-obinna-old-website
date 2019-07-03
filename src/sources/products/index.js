@@ -17,7 +17,7 @@ const Airtable = require('airtable');
                 }));
                 
                 
-            await base('Furniture').select().eachPage((records, fetchNextPage) => {
+            await base('Products').select().eachPage((records, fetchNextPage) => {
                 records.forEach((record) => {
                     const item = record._rawJson;
                     

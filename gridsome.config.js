@@ -7,19 +7,6 @@ module.exports = {
   titleTemplate: "%s",
   siteDescription: "Designer, Producer, Developer, Entrepreneur, Investor",
   plugins: [
-    // TAILWIND CSS
-    // {
-    //   use: 'gridsome-plugin-tailwindcss',
-    //   options: {
-    //   tailwindConfig: './gridsome.config.js',
-    //     purgeConfig: {},
-    //     presetEnvConfig: {},
-    //     shouldPurge: true,
-    //     shouldImport: true,
-    //     shouldTimeTravel: true,
-    //   }
-    // },
-    // 
     // AIRTABLE
     {
           use: '~/src/sources/products',
