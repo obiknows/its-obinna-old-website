@@ -13,6 +13,120 @@
             :product="edge.node" class="product" />
         </section>
         <Pager :info="$page.allProduct.pageInfo" class="product-navigation" />
+
+        <div class="collection">
+  <!-- Imagine a loop produced this... -->
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00</p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00 </p> 
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00 </p>  
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+  <div class="product">
+    <a class="product__image" href="#"></a>
+    <div class="product__name">
+      <p>
+        <a href="#">Product Name</a>
+      </p>
+    </div>
+    <div class="product__price">
+      <p>$10.00  </p>
+    </div>
+  </div>
+</div>
       </div>
 
     </div>
@@ -41,7 +155,7 @@
   font-weight: normal;
   background-color: hsla(152, 65%, 80%, 1);
 }
-.products {
+/* .products {
   display: flex;
   flex-wrap: wrap;
 }
@@ -59,7 +173,54 @@
 }
 .product button {
   width: 100%;
+} */
+
+/* STORE CSS GRID STYLINGS */
+.collection {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 60px auto;
+  max-width: 800px;
 }
+
+@media only screen and (max-width: 666px) {
+  .collection {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 60px auto;
+  max-width: 800px;
+}
+}
+
+.product__image {
+  background-color: #e5e5e5;
+  display: block;
+  min-height: 200px;
+  width: 100%;
+}
+.product__name p {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.product__name p a {
+  color: #000000;
+  text-decoration: none;
+}
+.product__price p {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+
 </style>
 
 
