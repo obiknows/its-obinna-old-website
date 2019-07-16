@@ -7,8 +7,8 @@
             <h2>{{product.title}}</h2>
         </g-link>
         <p class="btn-line">
+            <p>{{excerpt}}</p>
             <BuyButton :product="product" />
-        <p>{{excerpt}}</p>
     </article>
 </template>
 

@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/obi-knows-co-thumbnail.png"
-title: Obi Knows Co - Logo Designs
+title: Obi Knows Co
 date: 2018-12-25T23:00:00.000+00:00
 categories:
 - logo design

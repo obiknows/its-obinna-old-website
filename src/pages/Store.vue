@@ -14,119 +14,63 @@
         </section>
         <Pager :info="$page.allProduct.pageInfo" class="product-navigation" />
 
-        <div class="collection">
-  <!-- Imagine a loop produced this... -->
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00</p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00 </p> 
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00 </p>  
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-  <div class="product">
-    <a class="product__image" href="#"></a>
-    <div class="product__name">
-      <p>
-        <a href="#">Product Name</a>
-      </p>
-    </div>
-    <div class="product__price">
-      <p>$10.00  </p>
-    </div>
-  </div>
-</div>
+        <!-- <div class="collection">
+          <div class="product">
+            <a class="product__image" href="#"></a>
+            <div class="product__name">
+              <p>
+                <a href="#">Product Name</a>
+              </p>
+            </div>
+            <div class="product__price">
+              <p>$10.00</p>
+            </div>
+          </div>
+          <div class="product">
+            <a class="product__image" href="#"></a>
+            <div class="product__name">
+              <p>
+                <a href="#">Product Name</a>
+              </p>
+            </div>
+            <div class="product__price">
+              <p>$10.00 </p> 
+            </div>
+          </div>
+          <div class="product">
+            <a class="product__image" href="#"></a>
+            <div class="product__name">
+              <p>
+                <a href="#">Product Name</a>
+              </p>
+            </div>
+            <div class="product__price">
+              <p>$10.00 </p>  
+            </div>
+          </div>
+          <div class="product">
+            <a class="product__image" href="#"></a>
+            <div class="product__name">
+              <p>
+                <a href="#">Product Name</a>
+              </p>
+            </div>
+            <div class="product__price">
+              <p>$10.00  </p>
+            </div>
+          </div>
+          <div class="product">
+            <a class="product__image" href="#"></a>
+            <div class="product__name">
+              <p>
+                <a href="#">Product Name</a>
+              </p>
+            </div>
+            <div class="product__price">
+              <p>$10.00  </p>
+            </div>
+          </div>
+        </div> -->
       </div>
 
     </div>
@@ -155,7 +99,7 @@
   font-weight: normal;
   background-color: hsla(152, 65%, 80%, 1);
 }
-/* .products {
+.products {
   display: flex;
   flex-wrap: wrap;
 }
@@ -173,7 +117,7 @@
 }
 .product button {
   width: 100%;
-} */
+}
 
 /* STORE CSS GRID STYLINGS */
 .collection {

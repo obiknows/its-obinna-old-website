@@ -1,6 +1,7 @@
 <template>
   <Layout>
       <section class="main">
+        <h1 class="product-title">{{$page.product.title}}</h1>
         <aside>
             <figure>
                 <img :src="$page.product.picture[selected].thumbnails.large.url"
@@ -15,7 +16,6 @@
                     :class="{active: index == selected}" />
             </p>
         </aside>
-        <h1>{{$page.product.title}}</h1>
         <buy-button :product="$page.product" />
         <p>{{$page.product.content}}</p>
       </section>
@@ -47,6 +47,29 @@ figure {
 }
 .img-preview.active {
     border: 2px solid hsla(152, 65%, 80%, 1);
+}
+.main {
+    margin-top: 3rem;
+}
+.product-title {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* PHONE ONLY */
+@media only screen and (max-width: 600px) {
+    .main {
+        margin-top: 0rem;
+    }
+    .product-title {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    figure, .img-main {
+        /* display: block; */
+        /* width: 100%; */
+        margin: 0;
+    }
 }
 </style>
 

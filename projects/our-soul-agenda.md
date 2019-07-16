@@ -4,9 +4,8 @@ title: Our Soul Agenda
 date: '2019-05-15T13:55:55.000Z'
 categories: 
 - website
-- design
-- development
-- blog
+- youtube
+- platform
 project_bg_color: '#FBC62F'
 project_fg_color: '#F65026'
 

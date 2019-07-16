@@ -4,7 +4,7 @@
             <div class="left">
                 <g-link :to="{ name: 'home' }" class="home-link">
                     <img 
-                        src="../../static/OBINNA.svg"
+                        src="../../static/GOLD-OBINNA.svg"
                         :alt="settings.site_name" 
                         class="logo"
                     />
@@ -83,7 +83,7 @@ export default {
     border-color: inherit;
 }
 
-/*  */
+/* PHONE ONLY */
 @media only screen and (max-width: 600px) {
     .nav {
         margin-left: 2rem;   
