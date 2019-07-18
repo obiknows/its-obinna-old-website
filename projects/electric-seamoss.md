@@ -1,5 +1,5 @@
 ---
-thumbnail: "/uploads/electric-seamoss-tablet.png"
+thumbnail: "/uploads/electric-seamoss-banner.png"
 title: Electric Seamoss
 date: '2019-06-17T11:44:44.000Z'
 # date: 2019-06-15 23:00:00 +0000

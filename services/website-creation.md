@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/electric-seamoss-tablet.png"
-title: Website Creation
+title: Website / Webstore Creation
 date: '2019-06-17T11:44:44.000Z'
 # date: 2019-06-15 23:00:00 +0000
 # date: 'Sat, 15 Jun 2019 08:00:00 GMT'

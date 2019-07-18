@@ -6,8 +6,8 @@ categories:
 - website
 - youtube
 - platform
-project_bg_color: '#FBC62F'
-project_fg_color: '#F65026'
+project_bg_color: '#F65026'
+project_fg_color: '#FBC62F'
 
 ---
 **Our Soul Agenda** is a platform consisting of a YouTube channel, Instagram account as well as a website and blog. 

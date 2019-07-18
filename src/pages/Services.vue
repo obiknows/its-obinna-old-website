@@ -1,21 +1,21 @@
 <template>
   <Layout>
     <!-- Link: TAILWIND -->
-    <div class="container">
+    <div class="container white">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 
 
       <div class="services-header">
         <h1 class="services-title">Services</h1>
         
-        <section class="service-grid">
+        <!-- <section class="service-grid">
           <div style="background-color:red">1</div>
           <div style="background-color:yellow">2</div>
           <div style="background-color:green">3</div>
           <div style="background-color:green">4</div>
           <div style="background-color:orange">5</div>
           <div style="background-color:red">6</div>
-        </section>
+        </section> -->
 
         <section class="cf w-100 pa2-ns mb2">
           <!-- 1. Web Creation -->
@@ -24,10 +24,10 @@
               <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
               class="db bg-center cover aspect-ratio--object" />
             </div>
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/website-creation">
-              <h3 class="f5 f4-ns mb0 black-90">Sites & Stores</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I'll design and build a website to fit your needs.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/website-creation"> -->
+              <h3 class="f5 f4-ns mb0 ">Sites & Stores</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I'll design and build a website or webstore to fit your needs.</h3>
+            <!-- </g-link> -->
           </article>
 
           <!-- 2. Logo Design -->
@@ -36,10 +36,10 @@
               <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
               class="db bg-center cover aspect-ratio--object" />
             </div>
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/logo-design">
-              <h3 class="f5 f4-ns mb0 black-90">Logos</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I'll design a logo and branding kit to suit your needs.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/logo-design"> -->
+              <h3 class="f5 f4-ns mb0 ">Logos</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I'll design a logo and branding kit to suit your needs.</h3>
+            <!-- </g-link> -->
           </article>
 
           <!-- 3. Branding -->
@@ -49,10 +49,10 @@
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to branding -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/brand-consultation">
-              <h3 class="f5 f4-ns mb0 black-90">Branding Kit</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I'll craft a strategy to help build your brand.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/brand-consultation"> -->
+              <h3 class="f5 f4-ns mb0 ">Branding Kit</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I'll craft a strategy to help build your brand.</h3>
+            <!-- </g-link> -->
           </article>
           <!-- 4. Animate / Illustrate -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
@@ -61,10 +61,10 @@
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change link to /animations -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate">
-              <h3 class="f5 f4-ns mb0 black-90">Animations</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I will create a piece of art for a specific purpose you desire.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
+              <h3 class="f5 f4-ns mb0 ">Animations</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I will create a piece of art for a specific purpose you desire.</h3>
+            <!-- </g-link> -->
           </article>
           <!-- 5. Infographics -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
@@ -73,10 +73,10 @@
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to /infographics -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate">
-              <h3 class="f5 f4-ns mb0 black-90">Infographics & Flyers </h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I will create a piece of art for a specific purpose you desire.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
+              <h3 class="f5 f4-ns mb0 ">Infographics & Flyers </h3>
+              <h3 class="f6 f5 fw4 mt2 ">I will create a piece of art for a specific purpose you desire.</h3>
+            <!-- </g-link> -->
           </article>
           <!-- 6. Product Mockups -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
@@ -86,10 +86,10 @@
             </div>
             <!-- TODO: change links to /mockups -->
             <!-- TODO: rewrite descriptions -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate">
-              <h3 class="f5 f4-ns mb0 black-90">Product Mockups</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I will create a piece of art for a specific purpose you desire.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
+              <h3 class="f5 f4-ns mb0 ">Product Mockups</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I will create product mockups tailor made for your brand.</h3>
+            <!-- </g-link> -->
           </article>
           <!-- 7. Music & Beats -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
@@ -99,10 +99,10 @@
             </div>
             <!-- TODO: change links to /beats -->
             <!-- TODO: rewrite descriptions -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate">
-              <h3 class="f5 f4-ns mb0 black-90">Music & Beats</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">I will create a piece of art for a specific purpose you desire.</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
+              <h3 class="f5 f4-ns mb0 ">Music & Beats</h3>
+              <h3 class="f6 f5 fw4 mt2 ">I'll create royalty-free sounds to brind your project to life.</h3>
+            <!-- </g-link> -->
           </article>
           <!-- 8. Custom Work -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
@@ -112,10 +112,10 @@
             </div>
             <!-- TODO: change links to /custom (with a form about inquiry & budget) -->
             <!-- TODO: rewrite descriptions -->
-            <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate">
-              <h3 class="f5 f4-ns mb0 black-90">Custom Project</h3>
-              <h3 class="f6 f5 fw4 mt2 black-60">Need a custom work not mentioned here? Have a really interesting project?</h3>
-            </g-link>
+            <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
+              <h3 class="f5 f4-ns mb0 ">Custom Project</h3>
+              <h3 class="f6 f5 fw4 mt2 ">Need a custom work not mentioned here? Tap In and lets get to business</h3>
+            <!-- </g-link> -->
           </article>
   
         </section>

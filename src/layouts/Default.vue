@@ -1,5 +1,8 @@
 <template>
   <div class="layout" :class="{ 'sticky-header': $route.path === '/' }">
+    <!-- Fonts, Libraries, Etc. -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
+
     <Header />
     <slot/>
     <Footer />
@@ -39,7 +42,8 @@ body {
 }
 
 body.dark {
-  --color-base: rgb(0, 0, 0);
+  --color-base: brown;
+  /* --color-base: rgb(0, 0, 0); */
   --color-base-1: rgb(43, 43, 43);
   --color-contrast: rgb(255, 255, 255);
   --color-contrast-1: rgb(243, 243, 243);
@@ -47,6 +51,10 @@ body.dark {
 
 h1 {
   letter-spacing: -0.01em;
+}
+
+.cinzel {
+  font-family: 'Cinzel', serif;
 }
 
 .layout {

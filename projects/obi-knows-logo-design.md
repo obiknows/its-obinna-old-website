@@ -8,7 +8,7 @@ project_bg_color: "#38424C"
 project_fg_color: "#FFF"
 
 ---
-These are logos that were completed for various clients for my freelance design and development agenct titled Obi Knows Co.
+These are logos that were completed for various freelance design clients doing business as Obi Knows Co.
 
 ### Bloom Labs
 ![](/uploads/obi-knows-co-logo-bloom.png)
