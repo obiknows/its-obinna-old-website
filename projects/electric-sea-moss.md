@@ -1,6 +1,6 @@
 ---
 thumbnail: "/uploads/electric-seamoss-banner.png"
-title: Electric Seamoss
+title: Electric Sea Moss
 date: '2019-06-17T11:44:44.000Z'
 # date: 2019-06-15 23:00:00 +0000
 # date: 'Sat, 15 Jun 2019 08:00:00 GMT'
@@ -14,9 +14,9 @@ project_bg_color: '#665AA1'
 project_fg_color: '#E9D15E'
 ---
 
-This was a website done for health and wellness brand, Electric Seamoss™️. 
+This was a website done for health and wellness brand, Electric Sea Moss™️. 
 
-The website was constructed in Webflow in a week. 
+The website was constructed in Webflow in a week. And later redesigned on the same platform. 
 
 See it live and place your orders [here](https://electricseamoss.com) @ (https://electricseamoss.com)
 
