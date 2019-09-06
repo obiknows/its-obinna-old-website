@@ -21,8 +21,11 @@
           <!-- 1. Web Creation -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
-              class="db bg-center cover aspect-ratio--object" />
+              <!-- <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"  -->
+              <img 
+                src="../../static/services/sites-stores.svg"
+                class="db bg-center cover aspect-ratio--object"
+              />
             </div>
             <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/website-creation"> -->
               <h3 class="f5 f4-ns mb0 ">Sites & Stores</h3>
@@ -33,8 +36,10 @@
           <!-- 2. Logo Design -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
-              class="db bg-center cover aspect-ratio--object" />
+              <img 
+                src="../../static/services/logo.svg"
+                class="db bg-center cover aspect-ratio--object" />
+              />
             </div>
             <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/logo-design"> -->
               <h3 class="f5 f4-ns mb0 ">Logos</h3>
@@ -45,7 +50,8 @@
           <!-- 3. Branding -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);" 
+              <img 
+              src="../../static/services/branding.svg"
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to branding -->
@@ -57,7 +63,8 @@
           <!-- 4. Animate / Illustrate -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+              <img 
+              src="../../static/services/illustration.svg" 
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change link to /animations -->
@@ -69,19 +76,21 @@
           <!-- 5. Infographics -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+              <img 
+              src="../../static/services/ads-info.svg" 
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to /infographics -->
             <!-- <g-link class="nav__link ph2 ph0-ns pb3 link db" to="/services/animate-illustrate"> -->
-              <h3 class="f5 f4-ns mb0 ">Infographics & Flyers </h3>
+              <h3 class="f5 f4-ns mb0 ">Ads & Infographics</h3>
               <h3 class="f6 f5 fw4 mt2 ">I will create a piece of art for a specific purpose you desire.</h3>
             <!-- </g-link> -->
           </article>
           <!-- 6. Product Mockups -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+              <img 
+              src="../../static/services/product.svg" 
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to /mockups -->
@@ -94,7 +103,8 @@
           <!-- 7. Music & Beats -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+              <img 
+              src="../../static/services/music-beats.svg"
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to /beats -->
@@ -107,7 +117,8 @@
           <!-- 8. Custom Work -->
           <article class="fl w-100 w-50-m  w-25-ns pa2-ns mb3">
             <div class="aspect-ratio aspect-ratio--1x1">
-              <img style="background-image:url(http://mrmrs.github.io/images/0002.jpg);" 
+              <img 
+              src="../../static/services/custom.svg"
               class="db bg-center cover aspect-ratio--object" />
             </div>
             <!-- TODO: change links to /custom (with a form about inquiry & budget) -->
